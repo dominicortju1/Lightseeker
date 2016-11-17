@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E295252F-07A1-75AF-370C-706F9C68054D}") = "Lightseeker_0.1", "Assembly-CSharp-vs.csproj", "{D140B58E-EC53-9A31-836D-71EC11F45F1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D140B58E-EC53-9A31-836D-71EC11F45F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D140B58E-EC53-9A31-836D-71EC11F45F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D140B58E-EC53-9A31-836D-71EC11F45F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D140B58E-EC53-9A31-836D-71EC11F45F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+												GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+
+EndGlobal

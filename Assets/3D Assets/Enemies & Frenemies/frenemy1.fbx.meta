@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: bf2ead47b467547ada543f11661c346f
+timeCreated: 1478159008
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: armIK.L
+    100004: armIK.L_end
+    100006: armIK.R
+    100008: armIK.R_end
+    100010: Camera
+    100012: Cube
+    100014: Empty
+    100016: fingers.L
+    100018: fingers.L_end
+    100020: fingers.R
+    100022: fingers.R_end
+    100024: //RootNode
+    100026: head
+    100028: head_end
+    100030: hips
+    100032: jalkatera.L
+    100034: jalkatera.L_end
+    100036: jalkatera.R
+    100038: jalkatera.R_end
+    100040: Lamp
+    100042: legIK.L
+    100044: legIK.R
+    100046: loweramr.L
+    100048: loweramr.R
+    100050: lowerleg.L
+    100052: lowerleg.L_end
+    100054: lowerleg.R
+    100056: lowerleg.R_end
+    100058: neck
+    100060: spine
+    100062: upperamr.L
+    100064: upperamr.R
+    100066: upperleg.L
+    100068: upperleg.R
+    400000: Armature
+    400002: armIK.L
+    400004: armIK.L_end
+    400006: armIK.R
+    400008: armIK.R_end
+    400010: Camera
+    400012: Cube
+    400014: Empty
+    400016: fingers.L
+    400018: fingers.L_end
+    400020: fingers.R
+    400022: fingers.R_end
+    400024: //RootNode
+    400026: head
+    400028: head_end
+    400030: hips
+    400032: jalkatera.L
+    400034: jalkatera.L_end
+    400036: jalkatera.R
+    400038: jalkatera.R_end
+    400040: Lamp
+    400042: legIK.L
+    400044: legIK.R
+    400046: loweramr.L
+    400048: loweramr.R
+    400050: lowerleg.L
+    400052: lowerleg.L_end
+    400054: lowerleg.R
+    400056: lowerleg.R_end
+    400058: neck
+    400060: spine
+    400062: upperamr.L
+    400064: upperamr.R
+    400066: upperleg.L
+    400068: upperleg.R
+    4300000: Cube
+    7400000: Armature|ArmatureAction.002
+    7400002: Cube|ArmatureAction.002
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
