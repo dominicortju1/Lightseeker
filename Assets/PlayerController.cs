@@ -5,9 +5,10 @@ public class PlayerController : MonoBehaviour {
 
 	public float rotateSpeed;
 	public float forwardSpeed;
+	public float JumpSpeed = 5.0f;
 	private CharacterController playerController;
 	private bool canClimb;
-	private float gravity = 20;
+	private float gravity = 3f;
 	private bool isClimbing;
 
 
@@ -18,13 +19,25 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	// Update is called once per frame
+
 	void Update () {
 
+		//if (Input.GetKey(KeyCode.Space))
 
-			if (Input.GetKeyDown ("space") && playerController.isGrounded) {
+			
+		if (Input.GetKeyDown ("space") && !onGround && canDoubleJump) {
 				playerController.Move (Vector3.up) ;
+			{
+				this.GetComponent<Rigidbody>().AddForce (Vector3.up*200);
+				canDoubleJump = false;
+				}
+			else if(Input.GetKeyDown("space") && onGround)
 
+			{
+				this.GetComponent<Rigidbody>() .AddForce (Vector3.up*200);
+				canDoubleJump = true;
 			}
+
 		if (!isClimbing) {
 			transform.Rotate (0, Input.GetAxis ("Horizontal") * rotateSpeed, 0);
 			Vector3 forward = transform.TransformDirection (Vector3.forward);
@@ -62,7 +75,8 @@ public class PlayerController : MonoBehaviour {
 
 	}
 	//Collectible and climbing script below
-	void OnTriggerEnter(Collider other)
+	
+		void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.CompareTag("Collectible"))
 		{
