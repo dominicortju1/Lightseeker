@@ -24,19 +24,11 @@ public class PlayerController : MonoBehaviour {
 
 		//if (Input.GetKey(KeyCode.Space))
 
-			
-		if (Input.GetKeyDown ("space") && !onGround && canDoubleJump) {
-				playerController.Move (Vector3.up) ;
-			{
-				this.GetComponent<Rigidbody>().AddForce (Vector3.up*200);
-				canDoubleJump = false;
-				}
-			else if(Input.GetKeyDown("space") && onGround)
-
-			{
-				this.GetComponent<Rigidbody>() .AddForce (Vector3.up*200);
-				canDoubleJump = true;
-			}
+		if (Input.GetKeyDown(KeyCode.Space) && jumps < maxJumps)	
+		//if (Input.GetKeyDown ("space")Vector3.up);// && !onGround && canDoubleJump) {
+				//playerController.Move (Vector3.up) ;
+	      }
+				
 
 		if (!isClimbing) {
 			transform.Rotate (0, Input.GetAxis ("Horizontal") * rotateSpeed, 0);
